@@ -1,0 +1,5 @@
+###
+# dumb stuff to ignore.
+*.swp
+*.swo
+.DS_Store
