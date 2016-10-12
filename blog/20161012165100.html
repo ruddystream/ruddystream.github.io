@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Ruddystream.GitHub.io by ruddystream</title>
+
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="stylesheet" href="/stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Ruddystream.GitHub.io</h1>
+        <p class="view"><a href="/">Webpage Home</a></p>
+        <p class="view"><a href="/blog">This Blog</a></p>
+        <p class="view"><a href="https://github.com/ruddystream">View My GitHub Profile</a></p>
+        <p class="view"><a href="https://twitter.com/ruddystream">Follow me on Twitter</a></p>
+      </header>
+      <section>
+        <h1>
+<a id="ruddystreamgithubio" class="anchor" href="#ruddystreamgithubio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>This is A Ruddy Stream</h1>
+
+<h2>FreeBSD first impressions as a Linux dude.</h2>
+<p>While waiting for some computers to re-image at work, I decided to mess around a little with FreeBSD. I saw that there had been a new release (FreeBSD 11), and I've been meaning to fart around with it over the years. I've used NetBSD in a past life, and liked it, but that was even longer ago than the death of my game developer dreams. So I figured that now was as good a time to try something newish as any. On to a VirtualBox VM we go.</p>
+<p>First thing I noticed was a quick and easy to use installer. This used to be a hallmark of the Linux distributions that I'd used over the years, but they've gotten graphical and more complex. Once I got used to the interface's expectations (after having trained myself on GUI rather than TUI interfaces for the past dcade), I waltzed through it pretty quick. Basic install, ZFS filesystem, pretty simple.</p>
+<p><em>Note to self: have a look at this new-fangled ZFS.</em></p>
+<p>Once everything was installed, I rebooted and logged in. I found I was using Csh, which was just not acceptable. What better way to learn the FreeBSD package manager than to install a more usable shell.</p>
+<p><em>tikka-takka, web searching noises</em>. Oh, it looks like all I need to do is type</p>
+<p><code>pkg add bash</code></p>
+<p>Oh, it looks like it puts everything I install in /usr/local. Actually, I kinda like that idea.</p>
+
+<p>Anyhow, a few minutes later, I'm bashing away in bash. I've gotta say, this is a good first impression. So I throw vim on there, because somehow, I've got muscle memory to type <em>vim</em> instead of <em>vi</em>. Whatever.</p>
+<p><code>pkg add vim</code></p>
+
+<p>Over 100 packages dependencies later (but still WAY fewer than messing around with node), I have the latest vim. Squee.</p>
+
+<p>I'm going to have to experiment with this further. So far, package maintenance is easy, similar enough to yum that I've got a decent idea of what I'm doing. And between the googles and the FreeBSD handbook, I should have a decent handle on things.</p>
+
+<p>/rs.</p>
+
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
